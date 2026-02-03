@@ -7,7 +7,7 @@
     const value = document.getElementById('dob').value;
     if(!value){
       result.textContent = 'Please select a date.';
-      return;
+      return; 
     }
     // value is YYYY-MM-DD — use UTC to avoid timezone shifts
     const [yr, mnth, day] = value.split('-').map(Number);
