@@ -35,9 +35,9 @@ button{
     margin-top:12px;
     width:100%;
     padding:10px;
-    border:7px solid #2563eb;
-    background:#141415;
-    color:#e71919;
+    border:7px solid #d7d9de;
+    background:#e8e8ec;
+    color:#eee9e9;
     border-radius:8px;
     font-weight:600;
     cursor:pointer}
