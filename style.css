@@ -1,0 +1,53 @@
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
+    margin:0;
+    background:#f4eeee;
+    color:#111}
+
+.card{
+    background:#ede8e8;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 6px 20px rgba(17,24,39,0.08);
+    width:320px;
+    max-width:90%}
+
+h1{
+    font-size:18px;
+    margin:0 0 12px}
+
+label{
+    display:block;
+    font-size:13px;
+    margin-bottom:6px}
+
+input[type="date"]{
+    width:100%;
+    padding:8px;
+    border:1px solid #e6e9ee;
+    border-radius:6px;
+    font-size:14px}
+
+button{
+    margin-top:12px;
+    width:100%;
+    padding:10px;
+    border:0;
+    background:#2563eb;
+    color:#fff;
+    border-radius:8px;
+    font-weight:600;
+    cursor:pointer}
+
+button:hover{
+    background:#1e49c7}
+#result{
+    margin-top:14px;
+    font-weight:600}
+.note{
+    font-size:12px;
+    color:#6b7280;
+    margin-top:8px}
