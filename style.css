@@ -35,8 +35,8 @@ button{
     margin-top:12px;
     width:100%;
     padding:10px;
-    border:0;
-    background:#2563eb;
+    border:7px solid #2563eb;
+    background:#141415;
     color:#e71919;
     border-radius:8px;
     font-weight:600;
