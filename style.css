@@ -44,9 +44,12 @@ button{
 
 button:hover{
     background:#d8d8db}
+
+
 #result{
     margin-top:14px;
     font-weight:600}
+
 .note{
     font-size:12px;
     color:#787979;
