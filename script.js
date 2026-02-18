@@ -1,4 +1,5 @@
 (function(){
+  
   const form = document.getElementById('birth-form');
   const result = document.getElementById('result');
 
