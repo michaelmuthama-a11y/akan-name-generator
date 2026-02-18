@@ -17,10 +17,11 @@
     const weekday = days[dt.getUTCDay()];
     result.textContent = `You were born on a ${weekday}.`;
   });
+
+  
 })();r, m, d] = value.split('-').map(Number);
     const dt = new Date(Date.UTC(yr, m - 1, d));
-    const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
-    const weekday = days[dt.getUTCDay()];
-    result.textContent = `You were born on a ${weekday}.`;
-  });
+const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+const weekday = days[dt.getUTCDay()];
+result.textContent = `You were born on a ${weekday}.`;  });
 })();
